@@ -84,7 +84,7 @@ class Tabs extends Component
           <AddDialog show={this.state.showAdd} handleClose={this.hideAddDialog} sync={this.state.sync}>
             <p>Add a new task</p>
           </AddDialog>
-          <button className="btn" onClick={this.showAddDialog}>Test</button>
+          <button className="btn" onClick={this.showAddDialog}>Add</button>
           <UpdateDialog 
             show={this.state.showUpdate} 
             handleClose={this.hideUpdateDialog} 
