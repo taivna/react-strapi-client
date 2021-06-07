@@ -1,0 +1,71 @@
+.app {
+  margin: auto;
+  width: 50%;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  float: right;
+}
+
+.tab-list-item {
+  display: inline;
+  list-style: none;
+
+  padding: 0.5rem 0.75rem;
+}
+
+.tab-list-active {
+  background-color: white;
+  border: solid #ccc;
+  border-width: 1px 1px 0 1px;
+}
+
+.tabs {
+  border: solid #ccc;
+  border-width: 1px;
+  padding: 10px;
+}
+
+.tab-content {
+  border: solid #ccc;
+  border-width: 1px 0 0 0;
+}
+
+.dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.dialog-main {
+  position: fixed;
+  background: white;
+  width: 50%;
+  height: 15%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.dialog-inputs {
+  display: flex;
+  justify-content: space-between;
+}
